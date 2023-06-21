@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ultima</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .App {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      text-align: center;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #000000;
+    }
+
+    .navbar-logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .navbar-logo img {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .navbar-links {
+      display: flex;
+    }
+
+    .navbar-links a {
+      color: #ada6a6;
+      text-decoration: none;
+      margin-right: 20px;
+    }
+
+    .App-header {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #282c34;
+      color: white;
+    }
+
+    .ultima-text {
+      font-size: 30px;
+      /* Adjust the font size as desired */
+      display: table-row;
+    }
+
+    .description-text {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      font-size: 100px;
+    }
+
+    .footer {
+      background-color: #c0c1c2;
+      color: rgb(26, 23, 23);
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="App">
+    <nav class="navbar">
+      <div class="navbar-logo">
+        <img src="logo.svg" alt="logo">
+      </div>
+      <div class="navbar-links">
+        <a href="/">Home</a>
+        <a href="https://discord.com/api/oauth2/authorize?client_id=1113874631489753148&permissions=8&scope=applications.commands%20bot">Invite</a>
+        <a href="https://discord.gg/HHxRfnYEZb">Discord Server</a>
+      </div>
+    </nav>
+    <header class="App-header">
+      <p class="description-text">
+        Ultima
+      </p>
+      <p class="ultima-text">
+        The most modern discord bot that has economy, moderation, automod, leveling, fun commands, useful tools, ticketing, ChatGPT and much more!
+      </p>
+    </header>
+    <footer class="footer">
+      Developed by the Ultima team
+    </footer>
+  </div>
+</body>
+
+</html>
